@@ -10,6 +10,9 @@ import android.support.v7.app.AlertDialog;
  * Created by johnmcmillan on 13/12/2016.
  */
 
+//This class creates the about dialogue which is an alert window that contains some content about the application
+
+
 public class AboutDialogue extends DialogFragment {
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {

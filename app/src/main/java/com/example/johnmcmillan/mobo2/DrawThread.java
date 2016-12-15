@@ -10,7 +10,7 @@ import android.view.SurfaceView;
 /**
  * Created by johnmcmillan on 13/12/2016.
  */
-
+//This class essentially contains the code for the wave and the axis'
 public class DrawThread extends Thread
 {
     private int canvasWidth;

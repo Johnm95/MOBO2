@@ -10,7 +10,7 @@ import android.util.Log;
 
 public class SaveData extends Activity {
 
-
+//This class is all about the saved data, when the user selects which type of map they want
     // *********************************************
     // Declare variables etc.
     // *********************************************

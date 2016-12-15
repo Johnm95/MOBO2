@@ -14,7 +14,7 @@ import android.view.MenuItem;
 /**
  * Created by johnmcmillan on 13/12/2016.
  */
-
+//This class contains the code to create the graph on the map Intent
 public class DrawActivity  extends AppCompatActivity
 {
 

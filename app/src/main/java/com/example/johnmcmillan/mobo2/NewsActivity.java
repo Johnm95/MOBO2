@@ -58,6 +58,7 @@ public class NewsActivity extends AppCompatActivity {
         inflater.inflate(R.menu.menu, menu);
         return true;
     }
+    //Menu
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle item selection

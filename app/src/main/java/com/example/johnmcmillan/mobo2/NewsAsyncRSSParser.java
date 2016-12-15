@@ -29,13 +29,13 @@ public class NewsAsyncRSSParser extends AsyncTask<String, Integer, LinkedList<Ne
         newsAppContext = newsCurrentAppContext;
         newsUrlRSSToParse = newsUrlRSS;
     }
-
+//Shows that parsing has started
     //@Override
     protected void onPreExecute()
     {
         Toast.makeText(newsAppContext,"Parsing started!", Toast.LENGTH_SHORT).show();
     }
-
+//Parses the news feed in the background
     //@Override
     protected LinkedList<NewsButtonClass> doInBackground(String...params)
     {
@@ -46,7 +46,7 @@ public class NewsAsyncRSSParser extends AsyncTask<String, Integer, LinkedList<Ne
 
         return parselist;
     }
-
+//Shows that the parsing has finished
     //@Override
     protected void newsOnPostExecute(NewsButtonClass newsResult)
     {

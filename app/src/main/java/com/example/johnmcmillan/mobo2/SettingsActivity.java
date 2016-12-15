@@ -16,7 +16,7 @@ import android.widget.RadioButton;
 /**
  * Created by johnmcmillan on 13/12/2016.
  */
-
+//This class contains the code for the options where the user can choose their different map type
 public class SettingsActivity extends AppCompatActivity {
     SaveData SDPref;
     SharedPreferences MySharedPred;

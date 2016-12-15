@@ -7,7 +7,7 @@ import java.io.Serializable;
 /**
  * Created by johnmcmillan on 21/11/2016.
  */
-
+//This class gets and sets the title and description for the news items within the news feed.
 public class NewsButtonClass implements Serializable{
 
     private String itemTitleNews;

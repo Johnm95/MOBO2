@@ -51,25 +51,28 @@ FragmentManager FmAbout;
         if(ccActionBar !=null){
             ccActionBar.setDisplayShowHomeEnabled(true);
         }
+        //Buttons created
         newsButton = (Button) findViewById(R.id.newsButton);
         newsButton.setOnClickListener(this);
 
         weatherButton = (Button) findViewById(R.id.weatherButton);
         weatherButton.setOnClickListener(this);
 
-
+//Store saved data
         mySharPref = PreferenceManager.getDefaultSharedPreferences(this);
         SDPref = new SaveData(mySharPref);
         SDPref.setDefaultPrefs();;
         FmAbout=this.getFragmentManager();
 
     }
+    //Create menu
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu, menu);
         return true;
     }
+    //Create the about and settings part of the menu
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle item selection
@@ -92,7 +95,7 @@ FragmentManager FmAbout;
 
 
 
-
+//What happens when the user clicks on the buttons
     @Override
     public void onClick(View view) {
 

@@ -16,6 +16,7 @@ import java.io.OutputStream;
  * Created by johnmcmillan on 13/12/2016.
  */
 
+//This class is the database manager where there is an empty database created in order to rewrite it with the pre-populated database
 public class DataBaseMan extends SQLiteOpenHelper {
 
 

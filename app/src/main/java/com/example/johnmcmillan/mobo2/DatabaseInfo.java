@@ -8,7 +8,7 @@ import java.io.Serializable;
 
 public class DatabaseInfo implements Serializable {
 
-
+//This class gets and sets the weatherID, the weatherImages
 // *********************************************
 // Declare variables etc.
 // *********************************************

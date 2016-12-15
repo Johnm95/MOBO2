@@ -6,6 +6,7 @@ import android.util.Log;
  * Created by johnmcmillan on 21/11/2016.
  */
 
+//This class gets and sets the title and description for the weather items within the news feed.
 public class WeatherButtonClass {
 
     private String itemTitleWeather;

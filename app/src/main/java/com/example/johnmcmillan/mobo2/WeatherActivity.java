@@ -27,7 +27,7 @@ import java.util.concurrent.ExecutionException;
 /**
  * Created by johnmcmillan on 12/12/2016.
  */
-
+//This class contains strings for the weather information for the map to display
 public class WeatherActivity extends AppCompatActivity implements OnMapReadyCallback {
     WeatherButtonClass GlasWeather;
     WeatherButtonClass AberWeather;
