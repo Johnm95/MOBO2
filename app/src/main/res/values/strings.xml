@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MOBO2</string>
+    <string name="dialog_About">This app will will give you updates on the news and weather</string>
+    <string name="dialog_About_OK_btn">Ok</string>
+</resources>
